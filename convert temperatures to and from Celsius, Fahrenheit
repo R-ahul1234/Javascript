@@ -1,0 +1,8 @@
+function Fahrenheit(value){
+    c=5*((value-32)/9);
+    console.log( c);
+ }
+function Celcius(value){
+    f=(9*value/5)+32;
+    console.log(f);
+}
