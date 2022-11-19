@@ -1,0 +1,13 @@
+ let fct=1;                        
+  function factorial(n){
+    if(n==0|n==1){
+        
+        return fct;
+         } else{
+       for (let i=1;i<=n;i++){
+        result=fct*i;
+        console.log(result);
+       }
+    }
+  }                         
+  factorial(10);
