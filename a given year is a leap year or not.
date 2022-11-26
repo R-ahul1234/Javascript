@@ -1,8 +1,0 @@
-function checkyear(year){
-    if(year%4===0){
-        console.log("It is  Leap Year");
-    }
-    else {
-        console.log("it is not Leap year");
-    }
-}
